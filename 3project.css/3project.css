@@ -1,0 +1,302 @@
+header{
+    background-image: url("../3project.css/art.jpg");
+    padding-top:20px;
+    padding-left:20px;
+    margin-right: 10px;
+    margin-top:10px;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+   
+    width:auto;
+    height:400px;
+    background-color:#FFF;
+    opacity: 0.8;
+
+}
+h3{
+    font-family:inherit;
+    color:whitesmoke;
+}
+.header h4{
+    color: whitesmoke;
+    letter-spacing: 30px;
+    font-style: italic;
+    font-size: 10px;
+    margin-top:5px;
+}
+.table{
+    
+    display:grid;
+   float:right;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-gap: 2px;
+    width:410px;
+}
+
+
+.table a{
+    border:1px solid gray;
+    border-radius:10px;
+    color:yellow;
+    box-shadow: 0px 3px;
+    padding:5px;
+    font-style: oblique;
+    text-decoration-line: none;
+    
+}
+
+
+h2{
+    color: red;
+    font-size: 50px;
+    position: relative;
+    margin: 5px 300px;
+    text-decoration-line: underline;
+}
+.title{
+    text-align: center;
+
+}
+.title h1{
+    font-family:serif;
+    font-size: 30px;
+    
+    
+
+}
+.title h4{
+    font-family:fantasy;
+    color:whitesmoke;
+}
+#Dishes{
+    border:2px red solid;
+    background-color: beige;
+    border-radius: 20%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 1px 3px 3px 0px;
+    
+    
+}
+#More{
+    border:2px red solid;
+    background-color: beige;
+    border-radius: 20%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 1px 3px 3px 0px;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    border:1px solid red;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 1px;
+}
+.about h3{
+    color: orange;
+    font-style: initial;
+    font-size: 20px;
+    text-shadow: 1px 2px gray;
+}
+.about h6{
+    font-family: cursive;
+    text-align: left;
+    font-size:10px;
+}
+.about h5{
+    color:gray;
+    font-family: cursive;
+}
+.Royal img{
+    width:auto;
+    height:150px;
+    border:1px solid gray;
+    box-shadow: 1px 1px 7px 1px;
+    
+
+}
+.about, .Royal{
+    display: inline-block;
+}
+#Specials{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    justify-items: center;
+}
+#Mapotofu{
+    border: gray 3px solid;
+    border-radius: 20%;
+    box-shadow: 2px 4px 4px 1px;
+    
+    
+    
+}
+#huoguo{
+    border: gray 3px solid;
+    border-radius: 20%;
+    box-shadow: 2px 4px 4px 1px;
+   
+}
+#baozi{
+    border: gray 3px solid;
+    border-radius: 20%;
+    box-shadow: 2px 4px 4px 1px;
+    
+}
+#zaocan{
+    border: gray 3px solid;
+    border-radius: 20%;
+    box-shadow: 1px 4px 4px 1px;
+    
+}
+#mian{
+    border: gray 3px solid;
+    border-radius: 20%;
+    box-shadow: 1px 4px 4px 1px;
+    
+}
+#vegi{
+    border: gray 3px solid;
+    border-radius: 20%;
+    box-shadow: 1px 4px 4px 1px;
+   
+}
+#tiandian{
+    border: gray 3px solid;
+    border-radius: 20%;
+    box-shadow: 1px 4px 4px 1px;
+   
+}
+#shengyu{
+    border: gray 3px solid;
+    border-radius: 20%;
+    box-shadow: 1px 4px 4px 1px;
+   
+}
+#pingpan{
+    border: gray 3px solid;
+    border-radius: 20%;
+    box-shadow: 1px 4px 4px 1px;
+    
+}
+main h4{
+    color: orange;
+    font-size: 20px;
+    text-shadow: 1px 2px gray;
+    
+}
+main{
+    background-color: azure;
+    margin:20px 30px 20px 5px;
+    
+    
+}
+.Team{
+    width: 800px;
+    position: relative;
+    margin-left: 250px;
+    margin-right:250px;
+    
+}
+#lolo,#papa,#me{
+    border-radius: 50%;
+    box-shadow: 7px 1px gray;
+    display:inline-block;
+    margin-left:-20px;
+}
+.ourteam h4{
+    color: orange;
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 1px 2px gray;
+}
+.Team p{
+    color:gray;
+    font-style: oblique;
+    display:inline-block;
+}
+.chef h6{
+    color:rgb(238, 223, 16);
+    text-decoration-line: underline;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+}
+.chef h5{
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    color:rgb(238, 223, 16);
+    font-size: 30px;
+}
+.chef{
+    background-image: url("../3project.css/3dian.jpg");
+    background-repeat: no-repeat;
+    padding-top:20px;
+    padding-left:20px;
+    margin-right: 20px;
+    margin-top:10px;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+   
+    height:300px;
+    
+}
+.Mail{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+.Services h4{
+    color: orange;
+    font-size: 20px;
+    text-shadow: 1px 2px gray;
+    
+}
+.ourservices{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 1fr;
+    padding:35px 15px 25px 45px;
+    background-color: azure;
+    width:900px;
+    
+}
+.contact h4{
+    color: orange;
+    font-size: 20px;
+    text-shadow: 1px 2px gray;
+}
+.ourcontact{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:stretch;
+}
+.formtwo{
+    margin-top: 50px ;
+    margin-left:5px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    text-decoration-line: underline;
+    height:80px;
+}
+footer h1{
+    color:red;
+    text-decoration-line: overline underline;
+}
+@media only screen and (min-width:500px) and (orientation:landscape){
+    .Royal img{height:150px;
+
+    }
+}
+
